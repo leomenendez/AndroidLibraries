@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FontViewsDemo</string>
+
+    <string name="text_view_example">This is an example of a Text View in the %s Font</string>
+    <string name="edit_text_example">This is an example of an Edit Text in the %s Font</string>
+    <string name="button_example">%s Font Button</string>
+
+    <string name="font_default">Default</string>
+    <string name="font_bree">Bree</string>
+    <string name="font_fira">Fira Sans</string>
+    <string name="font_lato">Lato</string>
+    <string name="font_opensans">Open Sans</string>
+    <string name="font_pacifico">Pacifico</string>
+    <string name="font_pangolin">Pangolin</string>
+    <string name="font_titillium">Titillium</string>
+
+    <string-array name="font_array">
+        <item>@string/font_default</item>
+        <item>@string/font_bree</item>
+        <item>@string/font_fira</item>
+        <item>@string/font_lato</item>
+        <item>@string/font_opensans</item>
+        <item>@string/font_pacifico</item>
+        <item>@string/font_pangolin</item>
+        <item>@string/font_titillium</item>
+    </string-array>
+
+    <string-array name="font_names">
+        <item></item>
+        <item>BreeSerif-Regular.ttf</item>
+        <item>FiraSansExtraCondensed-Medium.ttf</item>
+        <item>Lato-Regular.ttf</item>
+        <item>OpenSans-Regular.ttf</item>
+        <item>Pacifico-Regular.ttf</item>
+        <item>Pangolin-Regular.ttf</item>
+        <item>TitilliumWeb-Regular.ttf</item>
+    </string-array>
+
+</resources>
