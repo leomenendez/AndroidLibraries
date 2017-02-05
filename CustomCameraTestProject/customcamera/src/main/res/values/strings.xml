@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CustomCamera</string>
+
+    <string name="flash_on">ON</string>
+    <string name="flash_off">OFF</string>
+    <string name="flash_auto">AUTO</string>
+
+    <string name="rotation_pref">rotation_preference</string>
+    <string name="rotation_pref_title">Fix Camera Orientation</string>
+    <string name="rotation_pref_description">Some devices require this fix to properly display the camera preview.</string>
+
+    <string name="alert_permission_title">Permission Denied</string>
+    <string name="alert_permission_camera">App does not have permission to use the camera.\nPlease check camera permissions in settings!</string>
+    <string name="alert_permission_storage">App does not have permission to save files.\nPlease check storage permissions in settings!</string>
+</resources>
