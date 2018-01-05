@@ -83,7 +83,7 @@ public class CameraHandler {
 
         camera.setDisplayOrientation(orientationForPreview);
         Camera.Parameters params = camera.getParameters();
-        params.setRotation(orientationForCapture);
+        params.setRotation(orientationForPreview);
         camera.setParameters(params);
         camera.setPreviewDisplay(holder);
         surfaceHolder = holder;
@@ -303,7 +303,7 @@ public class CameraHandler {
                 camera.setParameters(parameters);
             } catch (RuntimeException rte) {
                 rte.printStackTrace();
-                setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
+//                setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
             }
         }
     }
